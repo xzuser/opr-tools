@@ -725,7 +725,7 @@ function init() {
 	// add map buttons
 	function mapButtons(newPortalData, targetElement, where) {
 		const mapButtons = `
-<a class='button btn btn-default' target='intel' href='https://www.ingress.com/intel?ll=${newPortalData.lat},${newPortalData.lng}&z=17'>Intel</a>
+<a class='button btn btn-default' target='yandex' href='https://maps.yandex.ru/?text=${newPortalData.lat},${newPortalData.lng}'>Yandex</a>
 <a class='button btn btn-default' target='osm' href='https://www.openstreetmap.org/?mlat=${newPortalData.lat}&mlon=${newPortalData.lng}&zoom=16'>OSM</a>
 `;
 
